@@ -1,5 +1,5 @@
 package main.config;
 
-public class commonconfig {
+public class CommonConfig {
   public static final String splitString = "|";
 }
