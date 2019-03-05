@@ -20,4 +20,19 @@ public class WriteFileFromMap {
       e.printStackTrace();
     }
   }
+
+  public static void WriteLineFromStringBuffer(StringBuffer in, String splitString, String dst)
+      throws IOException {
+    String newLine = System.getProperty("line.separator");
+    String[] strings = in.toString().split(splitString);
+    try (OutputStream out = new FileOutputStream(dst)) {
+      for (String string : strings) {
+        out.write(string.getBytes());
+        out.write(newLine.getBytes());
+      }
+
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
 }

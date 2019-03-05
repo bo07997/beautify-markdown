@@ -9,6 +9,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 /** Unit test for simple App. */
 public class FilterTest {
@@ -21,7 +22,7 @@ public class FilterTest {
   public void AntiFilterTest() throws IOException {
     HashMap<Integer, StringBuffer> test = ReadFileToMap.ReadLineOfFile("E:\\MyProject\\test.md");
     StringBuffer stringBuffer = CommonTool.MapToStrBufWithSplit(test, CommonConfig.splitString);
-    StringBuffer result = Filter.antiFilter(stringBuffer, ReConfig.antiFilterSet);
+    TreeMap<Integer, Integer> locations = Filter.getFilter(stringBuffer, ReConfig.antiFilterSet);
     System.out.println();
   }
 }
