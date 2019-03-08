@@ -21,9 +21,20 @@ public class mainController {
     // filter
     TreeMap<Integer, Integer> locations = Filter.getFilter(stringBuffer, ReConfig.antiFilterSet);
     // replace
-    stringBuffer = Replace.replaceWithAdd(stringBuffer, locations);
+    Replace.replaceWithAdd(stringBuffer, locations);
     WriteFileFromMap.WriteLineFromStringBuffer(
         stringBuffer, CommonConfig.parseSplitString, "E:\\MyProject\\test2.md");
-    System.out.println();
+  }
+
+  public static void transferFile(String From, String To) throws IOException {
+    // 来源HashMap
+    HashMap<Integer, StringBuffer> hashMap = ReadFileToMap.ReadLineOfFile(From);
+    // 合成StringBuffer
+    StringBuffer stringBuffer = CommonTool.MapToStrBufWithSplit(hashMap, CommonConfig.splitString);
+    // filter
+    TreeMap<Integer, Integer> locations = Filter.getFilter(stringBuffer, ReConfig.antiFilterSet);
+    // replace
+    Replace.replaceWithAdd(stringBuffer, locations);
+    WriteFileFromMap.WriteLineFromStringBuffer(stringBuffer, CommonConfig.parseSplitString, To);
   }
 }
