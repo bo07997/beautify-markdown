@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41771778-0831-4cf7-83ff-0a240b26ec9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/main/io/CreateFileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/main/view/cmdView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/main/java/main/config/ReConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/main/config/ReConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/main/controller/mainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/main/controller/mainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/main/service/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/main/service/Filter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/main/java/main/view/cmdView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="740">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,11 +51,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/main/java/main/io/ReadFileToMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="8" selection-start-line="8" selection-end-line="26" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/main/java/main/config/ReConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="140">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/src/main/java/main/service/Filter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/src/main/java/main/io/WriteFileFromMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="520">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +157,6 @@
         <option value="$PROJECT_DIR$/test/.ignore" />
         <option value="$PROJECT_DIR$/test/.gitignore" />
         <option value="$PROJECT_DIR$/test/src/test/java/main/FilterTest.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/main/service/Filter.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/main/service/Replace.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/main/config/CommonConfig.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/main/io/WriteFileFromMap.java" />
@@ -143,6 +164,7 @@
         <option value="$PROJECT_DIR$/test/src/main/java/main/io/CreateFileUtil.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/main/view/cmdView.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/main/config/ReConfig.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/main/service/Filter.java" />
       </list>
     </option>
   </component>
@@ -172,7 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +255,47 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautify-markdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautify-markdown" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautify-markdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautify-markdown" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautify-markdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautify-markdown" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautify-markdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautify-markdown" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beautify-markdown" type="b2602c69:ProjectViewProjectNode" />
@@ -263,12 +325,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/CodeEnvironment/Java" />
+    <property name="last_opened_file_path" value="E:/vstsworkspace/projectX/source/tools/excelFactory" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -286,7 +348,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.cmdView">
+  <component name="RunManager" selected="Application.Filter">
+    <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.service.Filter" />
+      <module name="test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cmdView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.view.cmdView" />
       <module name="test" />
@@ -321,23 +390,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOTest.TestTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="PACKAGE_NAME" value="main" />
-      <option name="MAIN_CLASS_NAME" value="main.IOTest" />
-      <option name="METHOD_NAME" value="TestTransfer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Filter" />
         <item itemvalue="Application.cmdView" />
         <item itemvalue="Application.mainController" />
         <item itemvalue="JUnit.IOTest.Test" />
         <item itemvalue="JUnit.FilterTest.AntiFilterTest" />
-        <item itemvalue="JUnit.IOTest.TestTransfer" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +435,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22411004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24757281" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -398,8 +457,25 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/CodeEnvironment/Java/src.zip!/java/util/regex/Matcher.java</url>
+          <line>534</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>groupCount()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>files[0].getName()</expression-string>
         <language-id>JAVA</language-id>
@@ -440,11 +516,6 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>stringBuffer.charAt(272)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -480,16 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1995">
           <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/main/io/ReadFileToMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,43 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/CodeEnvironment/Java/src.zip!/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="413" selection-start-line="413" selection-end-line="413" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/main/service/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/main/model/ReplaceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/src/test/java/main/FilterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -623,6 +647,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/main/model/ReplaceModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/CodeEnvironment/Java/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="533" column="23" selection-start-line="533" selection-start-column="18" selection-end-line="533" selection-end-column="23" />
+          <folding>
+            <element signature="e#17066#17067#0" expanded="true" />
+            <element signature="e#17097#17098#0" expanded="true" />
+            <element signature="e#21134#21135#0" expanded="true" />
+            <element signature="e#21194#21195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main/java/main/controller/mainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -635,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main/java/main/view/cmdView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="740">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -650,10 +707,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/main/io/ReadFileToMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" selection-start-line="8" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/main/config/ReConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main/java/main/io/WriteFileFromMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="520">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -667,10 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/main/config/ReConfig.java">
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/main/service/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="480">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

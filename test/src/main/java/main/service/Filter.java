@@ -20,4 +20,12 @@ public class Filter {
     }
     return locations;
   }
+
+  public static void main(String[] args) throws InterruptedException {
+    Pattern re = Pattern.compile("[1-9][0-9]*|0");
+    Matcher m = re.matcher("0:A#100:B#999:C");
+    while (m.find()) {
+      System.out.println(m.group());
+    }
+  }
 }
