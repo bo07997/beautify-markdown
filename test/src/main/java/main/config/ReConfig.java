@@ -29,7 +29,7 @@ public class ReConfig {
   public static final HashSet<ReplaceModel> replaceSet =
       new HashSet<ReplaceModel>() {
         {
-          add(new ReplaceModel("`", "[A-Za-z0-9_]+[\\-\\']?[A-Za-z0-9_]*", "`")); // 英文
+          add(new ReplaceModel("`", "[A-Za-z][A-Za-z0-9_]+[\\-\\']?[A-Za-z0-9_]*", "`")); // 英文
         }
       };
 }
